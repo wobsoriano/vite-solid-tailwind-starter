@@ -1,28 +1,17 @@
-import { Component, lazy } from 'solid-js';
-import { Router, Route } from 'solid-app-router';
+import { Component } from 'solid-js';
+
+import { Router, useRoutes } from 'solid-app-router';
+import routes from './utils/routes';
 
 import Nav from './components/Nav';
 
-const routes = [
-  {
-    path: '/',
-    component: lazy(() => import('./views/Home'))
-  },
-  {
-    path: '/about',
-    component: lazy(() => import('./views/About'))
-  },
-  {
-    path: "*all",
-    component: lazy(() => import('./views/NotFound'))
-  }
-];
-
 const App: Component = () => {
+  const Routes = useRoutes(routes)
+
   return (
-    <Router routes={routes}>
+    <Router>
       <Nav />
-      <Route />
+      <Routes />
     </Router>
   );
 };

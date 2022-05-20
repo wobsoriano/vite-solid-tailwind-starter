@@ -9,14 +9,14 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.5",
-    "tailwindcss": "^2.2.4",
-    "vite": "^2.3.8",
-    "vite-plugin-solid": "^2.0.0"
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.9",
+    "vite-plugin-solid": "^2.2.6"
   },
   "dependencies": {
-    "solid-app-router": "^0.0.50",
-    "solid-js": "^1.0.0"
+    "solid-app-router": "^0.3.3",
+    "solid-js": "^1.4.2"
   }
 }
