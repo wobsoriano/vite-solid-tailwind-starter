@@ -1,4 +1,6 @@
-# ![Solid + Tailwind + Vite Starter](https://i.ibb.co/FYdWPrg/Solid-Tailwind-Vite-Starter.png)
+<p>
+  <img width="100%" src="https://i.ibb.co/YZbkNtQ/Solid-Tailwind-Vite-Starter-1.png" alt="Solid + Tailwind + Vite Starter">
+</p>
 
 >Inspired by [posva's](https://github.com/posva) [vite-tailwind-starter](https://github.com/posva/vite-tailwind-starter)
 
